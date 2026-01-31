@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEqualUint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint16array@esm/index.mjs';
+import isEqualUint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint16array@v0.1.0-esm/index.mjs';
 ```
 
 #### isEqualUint16Array( v1, v2 )
@@ -84,7 +84,7 @@ bool = isEqualUint16Array( x, new Uint16Array( [ 1, 3 ] ) );
 <script type="module">
 
 import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@esm/index.mjs';
-import isEqualUint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint16array@esm/index.mjs';
+import isEqualUint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint16array@v0.1.0-esm/index.mjs';
 
 var x = new Uint16Array( [ 1, 2, 3 ] );
 var y = new Uint16Array( [ 1, 2, 3 ] );
