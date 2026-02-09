@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEqualUint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint16array@deno/mod.js';
+import isEqualUint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint16array@v0.1.1-deno/mod.js';
 ```
 
 #### isEqualUint16Array( v1, v2 )
@@ -79,7 +79,7 @@ bool = isEqualUint16Array( x, new Uint16Array( [ 1, 3 ] ) );
 
 ```javascript
 import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@deno/mod.js';
-import isEqualUint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint16array@deno/mod.js';
+import isEqualUint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint16array@v0.1.1-deno/mod.js';
 
 var x = new Uint16Array( [ 1, 2, 3 ] );
 var y = new Uint16Array( [ 1, 2, 3 ] );
